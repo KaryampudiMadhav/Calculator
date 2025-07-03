@@ -1,0 +1,61 @@
+.total{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.buttons{
+    width: 250px;
+    display: grid;
+    grid-template-columns:auto auto auto auto;
+    row-gap: 3px;
+    column-gap: 3px;
+    margin-top: 8px;
+
+}
+button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 50ms;
+    text-align: center;
+}
+
+button:active{
+    transform: scale(0.6);
+}
+.delete:active{
+    transform: scale(0.6);
+}
+.text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    height: 50px;
+    width: 230px;
+    border: none;
+    outline: none;
+    text-align: right;
+}
+.inside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+   border: none;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+   border-radius: 10px;
+   padding: 5px 5px 5px 5px;
+}
+.delete{
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
